@@ -35,9 +35,8 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: teal;
     padding: 2rem;
-    background: url("images/zebra-hero.jpg") no-repeat center;
+    background: url("images/zebra-hero.jpg") #8980c2 no-repeat center;
     background-size: cover;
 }
 
@@ -54,12 +53,85 @@ nav a {
     margin: 1rem 0;
 }
 
-hero a {
+.button {
+    display: inline-block;
     font-family: Lato, sans-serif;
     text-decoration: none;
-    color: white;
     border: 1px solid white;
     padding: 0.5rem 1rem;
 }
 
+.btn-purple {
+    color: #8980c2;
+    border-color: #8980c2;
+}
 
+.btn-white {
+    color: white;
+    border-color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    justify-content: space-around;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    padding: 0 2rem;
+}
+
+main h2 {
+    font-family: "Bree Serif", serif;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 1rem;
+}
+
+main article img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #8980c2;
+    margin-bottom: 1rem;
+}
+
+main article h3 {
+    font-family: "Bree Serif", serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #8980c2;
+}
+main article p {
+    margin: 1rem 0;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #8980c2;
+    padding: 1rem 0;
+}
+
+#social-links p {
+    font-family: "Bree Serif", serif;    
+    margin: 0 0 1rem;
+    color: white;
+}
+#social-links div div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+
+/* footer {
+    te
+} */
